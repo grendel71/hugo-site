@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>grendel71</title>
-    <link>http://localhost:39925/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on grendel71</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>blau20212@gmail.com (Brandon Lau)</managingEditor>
     <webMaster>blau20212@gmail.com (Brandon Lau)</webMaster>
     <copyright>© 2026 Brandon Lau</copyright>
-    <lastBuildDate>Thu, 09 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:39925/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Welcome to My Blog</title>
-      <link>http://localhost:39925/posts/welcome/</link>
+      <link>http://localhost:1313/posts/welcome/</link>
       <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
       <author>blau20212@gmail.com (Brandon Lau)</author>
-      <guid>http://localhost:39925/posts/welcome/</guid>
+      <guid>http://localhost:1313/posts/welcome/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Blog</title>
-      <link>http://localhost:39925/projects/website/</link>
+      <link>http://localhost:1313/projects/website/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>blau20212@gmail.com (Brandon Lau)</author>
-      <guid>http://localhost:39925/projects/website/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:39925/projects/website/feature.png" />
+      <guid>http://localhost:1313/projects/website/</guid>
+      <description>Personal Website built with Hugo + Nix + Github Actions</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/website/feature.png" />
     </item>
     
     <item>
       <title>Homelab</title>
-      <link>http://localhost:39925/projects/homelab/</link>
+      <link>http://localhost:1313/projects/homelab/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>blau20212@gmail.com (Brandon Lau)</author>
-      <guid>http://localhost:39925/projects/homelab/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:39925/projects/homelab/feature.jpeg" />
+      <guid>http://localhost:1313/projects/homelab/</guid>
+      <description>Personal homelab used to learn about Linux, Kubernetes and more.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/homelab/feature.jpeg" />
     </item>
     
     <item>
       <title>Resume</title>
-      <link>http://localhost:39925/resume/</link>
+      <link>http://localhost:1313/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>blau20212@gmail.com (Brandon Lau)</author>
-      <guid>http://localhost:39925/resume/</guid>
+      <guid>http://localhost:1313/resume/</guid>
       <description></description>
       
     </item>
