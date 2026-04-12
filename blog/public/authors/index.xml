@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on grendel71</title>
+    <link>http://localhost:39925/authors/</link>
+    <description>Recent content in Authors on grendel71</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>blau20212@gmail.com (Brandon Lau)</managingEditor>
+    <webMaster>blau20212@gmail.com (Brandon Lau)</webMaster>
+    <copyright>© 2026 Brandon Lau</copyright>
+    <atom:link href="http://localhost:39925/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>

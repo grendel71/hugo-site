@@ -1,0 +1,28 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "grendel71"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "My awesome website"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+ [params.author]
+   name = "Brandon Lau"
+   email = "blau20212@gmail.com"
+   image = "test.png"
+   imageQuality = 96
+   headline = "CS Major @ SIT"
+   bio = "2/4 CS Major @ SIT"
+   links = [
+     { email = "mailto:blau20212@gmail.com" },
+     { github = "https://github.com/grendel71" },
+     { linkedin = "https://linkedin.com/in/blau700" },
+   ]
