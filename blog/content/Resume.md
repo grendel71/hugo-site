@@ -10,10 +10,9 @@ showDate: false
 **Stevens Student Managed Investment Fund** \
 *Developer* | Jan 2025 – Present
 
-- Maintained highly available Kubernetes cluster with 3 bare-metal and 3 AWS control plane nodes
+- Maintained highly available Kubernetes cluster with 3 bare-metal and 3 control plane nodes. 
 - Built full observability and log aggregation infrastructure using VictoriaMetrics and VictoriaLogs, providing real-time visibility into cluster state, resource utilization, and pod-level logs across 10+ services
 - Engineered cluster-wide backup and disaster recovery using Velero with dedicated SeaweedFS S3-compatible backend, enforcing daily backups with weekly retention reducing storage costs by 90%
-- Migrated nodes to NixOS with Git-managed configs, SOPS-nix for secrets (k3s token, WireGuard keys), enabling fast reproducible provisioning
 
 **Stevens Blueprint** — Hoboken, NJ\
 *Developer* | Jan 2025 – Present
