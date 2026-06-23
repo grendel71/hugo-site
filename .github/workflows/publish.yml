@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+env:
+  S3_ENDPOINT: "http://rook-ceph-rgw-ceph-objectstore.rook-ceph.svc.cluster.local"
+
 jobs:
   build-deploy:
     runs-on: self-hosted
@@ -31,6 +34,10 @@ jobs:
         uses: unfor19/install-aws-cli-action@v1
 
       - name: Sync to SeaweedFS S3
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          NIX_CACHE_BUCKET: ${{ secrets.NIX_CACHE_BUCKET }}
         run: |
           aws s3 sync blog/public/ s3://${NIX_CACHE_BUCKET}/ \
             --endpoint-url "${S3_ENDPOINT}" \
