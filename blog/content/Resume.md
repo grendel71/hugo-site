@@ -25,10 +25,10 @@ showDate: false
 
 ## Projects
 
-**Homelab**: Personal homelab running virtualized k3s cluster on Proxmox VE, used to learn about Linux, Kubernetes and much more \
+**Homelab**: Personal homelab running virtualized Talos cluster on baremetal + PVE virtualized nodes, used to learn about Linux, Kubernetes and more \
 [See More]( {{%relref "./projects/homelab"%}} )
 
-**me.grendel71.net**: Personal site built with Hugo, S3, Github CI \
+**me.grendel71.net**: Personal site built with Hugo, S3 (Ceph), Github CI \
 [See More]( {{%relref "./projects/website"%}} )
 
 **Obsidian Ingester**: Utilized Gemini Api and Python to automate bulk file transfer of handwritten pdfs using rsync and ghostscript, as well as OCR to transcribe into Markdown/ Latex in Obsidian Vault.
