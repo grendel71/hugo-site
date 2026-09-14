@@ -1,4 +1,6 @@
 # Brandon Lau
-I am a 2/4 CS Major at Stevens Institute of Technology. I have a strong interest and background in Linux and Systems Administration, especially in areas such as Virtualization and Networking, but am also interested in broadening my knowledge. At the moment, I have interests in Kubernetes, high availability systems and cloud infrastructure. 
+Hi, I'm Brandon, I am a Computer Science student at Stevens Institute of Technology. Currently, I am working as a Developer on Stevens SSMIF and Stevens Blueprint, with interests in Linux and DevOps. 
 
-Otherwise, I am passionate about lifting, both directly in my own training, as well as the concepts surrounding it such as how training is structured, excercise selection and mentality.
+Otherwise, I am passionate about lifting and general physical training, both directly for myself as well as to understand the concepts surrounding it such as how training is structured, excercise selection and mentality.
+
+If you're interested, feel free to check out my projects for more information!
