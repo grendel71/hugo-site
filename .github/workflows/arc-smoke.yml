@@ -1,0 +1,37 @@
+name: ARC smoke test
+
+on:
+  push:
+    branches: [ci/arc-scale-set]
+
+env:
+  S3_ENDPOINT: "http://rook-ceph-rgw-ceph-objectstore.rook-ceph.svc.cluster.local"
+
+jobs:
+  smoke:
+    runs-on: runner-site
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.145.0"
+          extended: true
+
+      - name: Build site
+        run: hugo --minify
+        working-directory: blog
+
+      - name: Install AWS CLI
+        uses: unfor19/install-aws-cli-action@v1
+
+      - name: Check AWS CLI
+        run: aws --version
+
+      - name: Check S3 endpoint is reachable
+        run: curl -sS -o /dev/null -w '%{http_code}\n' "$S3_ENDPOINT"
